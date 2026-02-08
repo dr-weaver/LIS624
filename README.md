@@ -41,7 +41,7 @@ __YYYY-MM-DD - *Topic*__
  Connect VM to git repo
 + *Context:*  
  This is a required assignment for LIS624. SSH connection must be established between the VM and repository in order to edit repo files within VM.
-+ *Steps:*  
++ *Steps:*
  1. Configure git settings on VM.
  2. Create SSH key and add to github repository.
  3. Clone repo to VM.
@@ -51,5 +51,5 @@ __YYYY-MM-DD - *Topic*__
 + *Verification:*
  After completing each of the steps outlined, the repo is checked to see if the edits done with the VM command line are evident.
 + *Notes:*
- - Text formatting may be slightly altered within repository itself for readability. No actual text will be written within repo itself, and formatting changed will be done within VM only once the process becomes more familiar.
+  - Text formatting is slightly off when done in VM. Need to continue to work with this at a later date to determine where issue lies.
 
