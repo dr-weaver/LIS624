@@ -3,6 +3,7 @@
 + Documentation outline
 + 2026-02-08 - *Repository Creation*
 + 2026-02-08 - *VM Connection*
++ 2026-02-14 - *grep*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -48,8 +49,25 @@ __YYYY-MM-DD - *Topic*__
  4. Stage, Commit, and Push repo.
 + *Results:*  
  VM and repo should now be connected, and files edited or created using the VM can be successfully pushed out to the repo.
-+ *Verification:*
++ *Verification:*  
  After completing each of the steps outlined, the repo is checked to see if the edits done with the VM command line are evident.
-+ *Notes:*
++ *Notes:*  
   - Text formatting is slightly off when done in VM. Need to continue to work with this at a later date to determine where issue lies.
 
+## __2026-02-14 - *grep*__
+
++ *Goal:*  
+Familiarize with searching files using grep.
++ *Context:*  
+This is required work for LIS624. Searching files using grep can be very powerful/helpful.
++ *Steps:*
+ 1. Export BibTex file from Web of Science and upload it to the CLI.
+ 2. Review file using the "less" command to get a general idea of its contents.
+ 3. Use different grep commands and keys to explore the file in depth and famliarize with how different prompts can be utilized.
++ *Results:*  
+I have a general understanding of how grep works, but still need to practice using it to become more proficient.
++ *Verification:*  
+N/A
++ *Notes:*  
+ - The breadth of grep’s capabilities makes it a bit daunting and hard to fully grasp.
+ - I should try breaking up the commands into general concepts and slowly build up my understanding that way rather than try to tackle everything at once.
