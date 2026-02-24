@@ -80,12 +80,12 @@ Familiarize with yaz and library searches.
 + *Context:*  
 Required for week 6 of LIS624. In order to learn the “behind the scenes” of library search retrievals using z39.50 protocol.
 + *Steps:*
- 1. Download yaz and open yaz client.
- 2. Use the yaz client to establish a z39.50 connection with a library catalog
- 3. Search using various attributes and PQF operator phrases to find records for items.
- 4. Practice retrieving, viewing, and downloading records.
- 5. Practice formatting records to json via the jq command and editing records in nano.
+1. Download yaz and open yaz client.
+2. Use the yaz client to establish a z39.50 connection with a library catalog
+3. Search using various attributes and PQF operator phrases to find records for items.
+4. Practice retrieving, viewing, and downloading records.
+5. Practice formatting records to json via the jq command and editing records in nano.
 + *Results:*  
 I became familiar with a new method of retrieving and viewing records. I also got some practice with json, which I haven’t used much yet. 
 + *Notes:*
- - This was a lot of fun, and I can see it being helpful in a variety of ways.
+- This was a lot of fun, and I can see it being helpful in a variety of ways.
