@@ -4,6 +4,7 @@
 + 2026-02-08 - *Repository Creation*
 + 2026-02-08 - *VM Connection*
 + 2026-02-14 - *grep*
++ 2026-02-22 - *Library searches with yaz*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -71,3 +72,20 @@ N/A
 + *Notes:*  
  - The breadth of grep’s capabilities makes it a bit daunting and hard to fully grasp.
  - I should try breaking up the commands into general concepts and slowly build up my understanding that way rather than try to tackle everything at once.
+
+## __2026-02-22 - *Library searches with yaz*__
+
++ *Goal:*  
+Familiarize with yaz and library searches.
++ *Context:*  
+Required for week 6 of LIS624. In order to learn the “behind the scenes” of library search retrievals using z39.50 protocol.
++ *Steps:*  
+ 1. Download yaz and open yaz client.
+ 2. Use the yaz client to establish a z39.50 connection with a library catalog
+ 3. Search using various attributes and PQF operator phrases to find records for items.
+ 4. Practice retrieving, viewing, and downloading records.
+ 5. Practice formatting records to json via the jq command and editing records in nano.
++ *Results:*  
+I became familiar with a new method of retrieving and viewing records. I also got some practice with json, which I haven’t used much yet. 
++ *Notes:*  
+ - This was a lot of fun, and I can see it being helpful in a variety of ways.
