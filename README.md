@@ -5,6 +5,7 @@
 + 2026-02-08 - *VM Connection*
 + 2026-02-14 - *grep*
 + 2026-02-22 - *Library searches with yaz*
++ 2026-02-24 - *System Reboot*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -89,3 +90,19 @@ Required for week 6 of LIS624. In order to learn the “behind the scenes” of 
 I became familiar with a new method of retrieving and viewing records. I also got some practice with json, which I haven’t used much yet. 
 + *Notes:*
 - This was a lot of fun, and I can see it being helpful in a variety of ways.
+
+## __2026-02-24 - *System Reboot*__
+
++ *Goal:*  
+Learn how to perform a system restart.
++ *Context:*  
+I got multiple restart suggestion messages during the module 3 check in process and learned the process for doing so.
++ *Steps:*
+1. Type the command: sudo reboot.
+2. Wait for reboot to happen, eventually you will get a message that the CLI shell lost connection.
+3. Retry connection, you should be able to reauthorize and have things open up again as usual.
++ *Results:*  
+I was able to learn a new command that will be helpful in the future.
++ *Notes:*
+- Be sure to save any open documents before doing this, as it will results in the loss of any unsaved work.
+
