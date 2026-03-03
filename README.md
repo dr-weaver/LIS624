@@ -6,6 +6,7 @@
 + 2026-02-14 - *grep*
 + 2026-02-22 - *Library searches with yaz*
 + 2026-02-24 - *System Reboot*
++ 2026-03-02 - *Working with Apache HTTP Server*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -106,3 +107,23 @@ I was able to learn a new command that will be helpful in the future.
 + *Notes:*
 - Be sure to save any open documents before doing this, as it will results in the loss of any unsaved work.
 
+## __2026-03-02 - *Working with Apache HTTP Server*__
+
++ *Goal:*  
+Practice creating web pages with Apache.
++ *Context:*  
+Required for LIS624 as a way to learn about web functionality and become familiar with web services.4
++ *Steps:*
+1. Check system for updates, install any available.
+2. Search for and install apache, ensure it is running correctly with systemctl command.
+3. Install and open a text-based web browser, for this project I used w3m.
+4. Check functionality of web server via both the loopback address and the external IP address associated with the VM.
+5. Backup index.html file, then create a new one to work with in order to build web page.
+6. Open new file in nano, write html code for web page.
+7. Save changes, check that the page opens correctly in graphical browser.
++ *Results:*  
+I was able to successfully create a simple html webpage.
++ *Verification:*  
+I opened the external IP address for my VM, the changes I had made to the web page could be seen here.
++ *Notes:*  
+It may be interesting to try out some of the html and css code from my LIS690 assignments, particularly the beetle web page I made, in this context.
