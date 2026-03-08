@@ -8,7 +8,7 @@
 + 2026-02-24 - *System Reboot*
 + 2026-03-02 - *Working with Apache HTTP Server*
 + 2026-03-08 - *Update to Documentation Structure*
-+ 2026-03-08 - *Working with PHP*
++ 2026-03-08 - *Configuring Apache with PHP*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -132,11 +132,34 @@ It may be interesting to try out some of the html and css code from my LIS690 as
 
 ## __2026-03-08 - *Update to Documentation Structure*__
 
-In order to provide more in depth documentation, I will begin to change the way that this README file is used. Going forward, tasks will be added to the file with the same title format, but only a brief context will be included here. Instead, I will create a separate file that is dedicated to that specific tasks or topic, the name of which I will provide in the README entry. This should make it so that the README continues to be maageable as more entries are added, but that meaningful data is not lost for the sake of brevity.
+In order to provide more in depth documentation, I will begin to change the way that this README file is used.  
+Going forward, tasks will be added to the file with the same title format, but information in this file will be briefer.  
+Instead, I will create a separate file that is dedicated to that specific tasks or topic, the name of which I will provide in the README entry.  
+This should make it so that the README continues to be manageable as more entries are added, but that meaningful data is not lost for the sake of brevity.
 
-## __2026-03-08 - *Working with PHP*__
+## __2026-03-08 - *Configuring Apache  with PHP*__
 
-+ *Context:*  
+#### *Context:*  
 Required for LIS624. 
 PHP is used to work with databases to create data-driven content. Since it's a server side language, it has to be configured in order to display appropriately in browser.  
 Further documentation can be found in "PHP.md"
+
+#### *Environment:*  
++ OS: Ubuntu 24.04.4 LTS  
++ VM provider: Google Cloud  
++ Web server: Apache2  
++ PHP version: 8.3.6  
+
+#### *Steps Completed:*  
+1. Installed php and apache2 packages.
+2. Checked installation functionality.
+3. Configured Apache to prioritize PHP files.
+4. Created index.php file
+
+#### *Issues Encountered:*
++ None!
+
+#### *What I learned:*
++ I learned about the differences between client-side and server-side languages and how each is handled differently and used for different purposes.  
+I also learned how PHP displays in browser, and the steps to configure a server to prioritize a non-default file type.  
+Finally, I got more practice with using text editors and checking how changes look in browser view after being implemented from the server-side of things.
