@@ -7,6 +7,8 @@
 + 2026-02-22 - *Library searches with yaz*
 + 2026-02-24 - *System Reboot*
 + 2026-03-02 - *Working with Apache HTTP Server*
++ 2026-03-08 - *Update to Documentation Structure*
++ 2026-03-08 - *Working with PHP*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -127,3 +129,14 @@ I was able to successfully create a simple html webpage.
 I opened the external IP address for my VM, the changes I had made to the web page could be seen here.
 + *Notes:*  
 It may be interesting to try out some of the html and css code from my LIS690 assignments, particularly the beetle web page I made, in this context.
+
+## __2026-03-08 - *Update to Documentation Structure*__
+
+In order to provide more in depth documentation, I will begin to change the way that this README file is used. Going forward, tasks will be added to the file with the same title format, but only a brief context will be included here. Instead, I will create a separate file that is dedicated to that specific tasks or topic, the name of which I will provide in the README entry. This should make it so that the README continues to be maageable as more entries are added, but that meaningful data is not lost for the sake of brevity.
+
+## __2026-03-08 - *Working with PHP*__
+
++ *Context:*  
+Required for LIS624. 
+PHP is used to work with databases to create data-driven content. Since it's a server side language, it has to be configured in order to display appropriately in browser.  
+Further documentation can be found in "PHP.md"
