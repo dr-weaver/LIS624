@@ -118,10 +118,10 @@ sudo nano index.PHP
 	Honestly, the fact that the whole thing felt so intuitive and smooth was the most surprising part.  
 + **What did I break and how did I fix it?**  
 	Nothing seems to be broken!  
-+ **What would I do differently next time?**  
++ **What would I do differently next time?**    
 	I think I would like to read through the process again without a deadline looming behind me.  
 	I feel like I generally know what I did, but not at the level of depth that I would like.  
-+ **General** 	
++ **General**   	
 	I don't feel like my understanding of this process is as concrete as I'd like, although I'm not sure why.  
 	It's like I can tell there's a missing element in my understanding, but I can't pinpoint what that is.  
 	I'm hoping that next week's exercises will build on this, which will sort of fill in those missing pieces.
