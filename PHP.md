@@ -118,7 +118,7 @@ sudo nano index.PHP
 	Honestly, the fact that the whole thing felt so intuitive and smooth was the most surprising part.  
 + **What did I break and how did I fix it?**  
 	Nothing seems to be broken!  
-+ **What would I do differently next time?** 
++ **What would I do differently next time?**   
 	I think I would like to read through the process again without a deadline looming behind me.  
 	I feel like I generally know what I did, but not at the level of depth that I would like.  
 + **General**    
