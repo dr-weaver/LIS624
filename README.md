@@ -9,6 +9,7 @@
 + 2026-03-02 - *Working with Apache HTTP Server*
 + 2026-03-08 - *Update to Documentation Structure*
 + 2026-03-08 - *Configuring Apache with PHP*
++ 2026-03-15 - *MySQL*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -163,3 +164,34 @@ Further documentation can be found in "PHP.md"
 + I learned about the differences between client-side and server-side languages and how each is handled differently and used for different purposes.  
 I also learned how PHP displays in browser, and the steps to configure a server to prioritize a non-default file type.  
 Finally, I got more practice with using text editors and checking how changes look in browser view after being implemented from the server-side of things.
+
+## __2026-03-15 - *MySQL*__
+
+#### *Context:*
+Required for LIS624. The final part of configuring a LAMP stack.  
+MySQL is used for relational database management, and as frequently used for library management systems and other sites.  
+Further documentation can be found in `MySQL.md`
+
+#### *Environment:*
++ OS: Ubuntu 24.04.4 LTS  
++ VM provider: Google Cloud  
++ Web server: Apache2  
++ PHP Version: 8.3.6  
++ MySQL version: 8.0.45  
+
+#### *Steps Completed:*
+1. Installed and set up MySQL
+2. Set up MyDQL regular user account
+3. Created a practice database
+4. Logged in as regular user and created a table
+5. Tested SQL commands
+6. Installed PHP and MySQL support
+7. Created and tested PHP scripts
+
+#### *Issues Encountered:*
++ Brief typos with code at the end of the exercise resulted in a syntax error that wouldn't allow for proper display.  
+	Error fixed in nano; further info in `MySQL.md` file.
+
+#### *What I learned:*
+I learned how to work with databases and tables using MySQL in the CLI.  
+I also learned how to connect MySQL with PHP, thus completing the LAMP stack I've been working on.
