@@ -10,6 +10,7 @@
 + 2026-03-08 - *Update to Documentation Structure*
 + 2026-03-08 - *Configuring Apache with PHP*
 + 2026-03-15 - *MySQL*
++ 2026-03-22 - *Server Setup Documentation*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -195,3 +196,13 @@ Further documentation can be found in `MySQL.md`
 #### *What I learned:*
 I learned how to work with databases and tables using MySQL in the CLI.  
 I also learned how to connect MySQL with PHP, thus completing the LAMP stack I've been working on.
+
+## __2026-03-22 - *Server Setup Documentation*__
+
+#### *Context:*  
+As we finish up the LAMP stack project in LIS624, we are required to create a specified document which detials the setup process.
+
+#### *Results:*  
++ Given that this was just the development of written instructions, I felt that there wasn't much need to follow the normal structure in this file.
++ I wanted to include a brief mention in here, however, since the documentation will be included in the repository.
++ The file has been added as `ServerSetupDocumentation.md` and work in conjunction with the `PHP.md` and `MySQL.md` files.
