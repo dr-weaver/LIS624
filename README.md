@@ -11,6 +11,7 @@
 + 2026-03-08 - *Configuring Apache with PHP*
 + 2026-03-15 - *MySQL*
 + 2026-03-22 - *Server Setup Documentation*
++ 2026-03-29 - *Basic ILS Creation*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -206,3 +207,36 @@ As we finish up the LAMP stack project in LIS624, we are required to create a sp
 + Given that this was just the development of written instructions, I felt that there wasn't much need to follow the normal structure in this file.
 + I wanted to include a brief mention in here, however, since the documentation will be included in the repository.
 + The file has been added as `ServerSetupDocumentation.md` and work in conjunction with the `PHP.md` and `MySQL.md` files.
+
+## __2026-03-29 - *Basic ILS Creation*__
+
+#### *Context:*
++ Required for LIS624. In this module, we worked to create a bare bones OPAC as well as a basic cataloging module. 
++ The work utilized the LAMP stack from the last module.
++ The steps listed here are meant to provide a very minimal overview, further details can be found in the `DIY_ILS.md` file.
+
+#### *Environment:*
++ OS: Ubuntu 24.04.4 LTS  
++ VM provider: Google Cloud  
++ Web server: Apache2  
++ PHP Version: 8.3.6  
++ MySQL version: 8.0.45  
+
+#### *Steps Completed:*
+1. Practiced database and table creation, querying, and database privilege management in MySQL.
+
+2. Created an HTML form to allow for searching, and PHP script that made it operable, resulting in ability to search `books` database from LAMP module.
+
+3. Added additional titles to `books` database.
+
+4. Created a cataloging interface to add more items to the `books` database that is connected to the OPAC that was created.
+
+#### *Issues Encountered:*
++ Typo when created a database table resulting in syntax error; retyped command correctly to fix.
+
+#### *What I learned:*
++ More information on creating and working with MySQL databases.
++ How to create a searchable, functional OPAC.
++ How to create a functional cataloging interface.
++ How to set authorization using apache2's `htpsswd` function.
++ How to connect all of the elements listed above.
