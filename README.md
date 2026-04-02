@@ -12,6 +12,7 @@
 + 2026-03-15 - *MySQL*
 + 2026-03-22 - *Server Setup Documentation*
 + 2026-03-29 - *Basic ILS Creation*
++ 2026-04-01 - *Basic OPAC and Cataloging Module Creation - Reflection*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -240,3 +241,13 @@ As we finish up the LAMP stack project in LIS624, we are required to create a sp
 + How to create a functional cataloging interface.
 + How to set authorization using apache2's `htpsswd` function.
 + How to connect all of the elements listed above.
+
+## __2026-04-01 - *Basic OPAC and Cataloging Module Creation - Reflection*__
+
+#### *Context:*
++ Required for LIS624. A reflection of the creation of a basic OPAC and cataloging module.
+
+#### *Results:*
++ As with the module 4 LAMP reflection document, this is structured as a written document rather than a full exercise, meaning there doesn't feel like as much need to follow regular structure in this antry.
++ The file provides more functional context to the set up process, and can be used alongside the more procedural `DIY_ILS.md` file to give a bigger picture of the process used to create these ILS modules.
++ The document itself is titled `BasicILS_Reflection.md` and can be found in this repository. 
