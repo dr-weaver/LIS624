@@ -13,6 +13,7 @@
 + 2026-03-22 - *Server Setup Documentation*
 + 2026-03-29 - *Basic ILS Creation*
 + 2026-04-01 - *Basic OPAC and Cataloging Module Creation - Reflection*
++ 2026-04-05 - *WordPress Installation and Configuration*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -251,3 +252,38 @@ As we finish up the LAMP stack project in LIS624, we are required to create a sp
 + As with the module 4 LAMP reflection document, this is structured as a written document rather than a full exercise, meaning there doesn't feel like as much need to follow regular structure in this antry.
 + The file provides more functional context to the set up process, and can be used alongside the more procedural `DIY_ILS.md` file to give a bigger picture of the process used to create these ILS modules.
 + The document itself is titled `BasicILS_Reflection.md` and can be found in this repository. 
+
+## __2026-04-05 - *WordPress Installation and Configuration*__
+
+#### *Context:*
++ Required for LIS624. The first step in creating the mock library site.
++ In this exercise, we installed and configured WordPress so that it can serve as the main access point for our library sites.
++ More detailed documentation can be found in the `WordPress_Install.md` file.
+
+#### *Environment:*
++ OS: Ubuntu 24.04.4 LTS  
++ VM provider: Google Cloud  
++ Web server: Apache2  
++ PHP Version: 8.3.6  
++ MySQL version: 8.0.45  
+
+#### *Steps Completed:*
+1. Checked for routine system updates, installed files.
+
+2. Confirmed that system requirements were met to install WordPress, installed extra PHP modules to increase functionality.
+
+3. Downloaded and extraceted WordPress installation file.
+
+4. Created new MySQL database and user for project.
+
+5. Configured WordPress config PHP file.
+
+6. Used external IP to visit WordPress site in browser and finish login creation process.
+
+#### *Issues Encountered:*
++ None
+
+#### *What I learned:*
++ How to install and configure WordPress using a CLI
++ How to connect it to a specific database in MySQL
++ How to extract zip files in a CLI
