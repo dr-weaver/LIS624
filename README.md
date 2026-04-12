@@ -1,4 +1,4 @@
-# Repository for Systems Librarianship class
+# Systems Librarianship Repository
 ## Contents
 + Documentation outline
 + 2026-02-08 - *Repository Creation*
