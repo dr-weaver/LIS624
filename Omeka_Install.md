@@ -167,4 +167,4 @@ Install and configure Omeka and begin to build a collection on it. This assignme
 + **What would I do differently next time?**   
 	- Nothing in particular, I felt that this went generally well.
 + **General**    
-	- I'm curious to see how this ties back to the Wordpress page. I'm also curious to see if I did anything wrong without realizing it.
+	- I'm curious to see if I did anything wrong without realizing it.
