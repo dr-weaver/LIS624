@@ -14,6 +14,7 @@
 + 2026-03-29 - *Basic ILS Creation*
 + 2026-04-01 - *Basic OPAC and Cataloging Module Creation - Reflection*
 + 2026-04-05 - *WordPress Installation and Configuration*
++ 2026-04-12 - *Omeka Installation and Configuration*
 ## Documentation outline:
 A simple outline for documenting the work done on a project.  
 The first line should be preceded with the appropriate heading level, depending on the structure of the file it is held within.
@@ -287,3 +288,44 @@ As we finish up the LAMP stack project in LIS624, we are required to create a sp
 + How to install and configure WordPress using a CLI
 + How to connect it to a specific database in MySQL
 + How to extract zip files in a CLI
+
+## __2026-04-12 - *Omeka Installation and Configuration*__
+
+#### *Context:*
++ Required for LIS624.
++ In this exercise we installed, configured, and added an item to Omeka.
++ We were purposefully given very basic instruction in order to test and see if we could complete the process successfully.
+
+#### *Environment:*
++ OS: Ubuntu 24.04.4 LTS  
++ VM provider: Google Cloud  
++ Web server: Apache2  
++ PHP Version: 8.3.6  
++ MySQL version: 8.0.45  
+
+#### *Steps Completed:*
+1. Checked for routine system updates, installed files.
+
+2. Confirmed that system requirements were met to install Omeka, installed ImageMagick.
+
+3. Confirmed appropriate PHP modules were installed, enabled apache rewrite module.
+
+4. Created new MySQL database and user for project.
+
+5. Installed and extracted Omeka download file.
+
+6. Configured database connection between MySQL and Omeka.
+
+7. Configured Apache group access and changed some permissions within config file.
+
+8. Set up Omeka via browser.
+
+9. Added a photo to the site.
+
+#### *Issues Encountered:*
++ There was an issue with the initial connection between Apache and Omeka, resulting in an error in the site registering that the rewrite module was enabled.
+	- **Solution:** added script to the `apache2` config file to allow access in `omeka` directory.
+
+#### *What I learned:*
++ How to install and set up Omeka
++ How to troubleshoot unexpected configuration issues.
